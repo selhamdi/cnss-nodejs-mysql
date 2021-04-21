@@ -1,0 +1,48 @@
+POST http://localhost:3000/api/admins/login
+Content-Type: application/json
+
+{
+    "email" : "naoufelbenmensour@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/admins/all
+
+###
+POST http://localhost:3000/api/admins/add
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/employees/addEmployee
+Content-Type: application/json
+
+{
+    "name" : "naoufal",
+    "mail" : "test1@gmail.com",
+    "password" : "",
+    "cin" : "",
+    "dateOfBirth" : "",
+    "registration_number" : ""
+}
+
+###
+GET http://localhost:3000/api/employees/getEmployee
+
+###
+GET http://localhost:3000/api/employees/getById/4
+
+###
+POST http://localhost:3000/api/employees/login
+Content-Type: application/json
+
+{
+    "mail" : "naoufelbenmensour@gmail.com"
+}
+
+###
+POST http://localhost:3000/api/employees/login
+Content-Type: application/json
+
+{
+    "mail" : "tes1@gmail.com"
+}
